@@ -1,0 +1,1 @@
+document.getElementById("currentColor").innerHTML() = "<p> eyooo </p>"

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- css file wordt niet gevonden-->
-  <link rel="stylesheet" href="/sensehat_dashboard/assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
   <title>Environment Sensors | Internet of Things | New Media Development</title>
 </head>
 <body>
@@ -42,9 +42,12 @@
     <p>No environment sensor values</p>
   {% endif %}
 
-    <form action="" method="POST">
-      <input type="color" name="hexColor" value="#FFFFFF">
-      <input type="submit">
-    </form>
+  <div style="width:100px; height: 100px;" id="currentColor"></div>
+  <form action="" method="POST">
+    <input type="color" name="hexColor" value="#FFFFFF">
+    <input type="submit">
+  </form>
+
+  <script src="/sensehat_dashboard/assets/js/main.js"></script>
 </body>
 </html>
